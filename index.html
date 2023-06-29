@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+  <header>
+    <a class="home-link" href="#">Reset</a>
+  </header>
+
+  <div class="container">
+    <h1>Calculadora</h1>
+    <input type="number" id="numero1" placeholder="Digite o primeiro número">
+    <input type="number" id="numero2" placeholder="Digite o segundo número">
+    <div class="btn-container">
+      <button class="btn-sum" onclick="calculo('soma')">Soma</button>
+      <button class="btn-subtract" onclick="calculo('subtracao')">Subtração</button>
+      <button class="btn-multiply" onclick="calculo('multiplicacao')">Multiplicação</button>
+      <button class="btn-divide" onclick="calculo('divisao')">Divisão</button>
+    </div>
+    <h2 id="resultado"></h2>
+  </div>
+
+  <footer>
+    <p>Made by Arthur Aguiar&copy;</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
